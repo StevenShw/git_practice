@@ -36,7 +36,9 @@ git commit -m "chapter2" //
 
 //在第一行写注释，按ESC退出编辑模式，输出 :wq 保存注释并退出
 
-git commit -am //--amend  可以不用单独git add
+git commit -am // 可以不用单独git add, 这里是 既add已经被追踪的文件， 也同时commit
+
+git commit --amend // 修改当前分支最近的一个commit所提交的注释的信息
 
 git status //查看自己写了哪些东西
 
